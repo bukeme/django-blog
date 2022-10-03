@@ -132,4 +132,4 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-SECURE_PROXY_SSL_HEADER = True
+SECURE_SSL_REDIRECT = True
